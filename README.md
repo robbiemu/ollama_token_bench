@@ -1,6 +1,6 @@
 # Ollama token bench
 
-ollama-token-bench is a Python script that utilizes the [ollama-python](https://github.com/ollama/ollama-python) library to benchmark tokens per second for a model. This is avery simple script, only generating details about tokens per second. It is meant for reuse and to serve as a base for extension. 
+ollama-token-bench is a Python script that utilizes the [ollama-python](https://github.com/ollama/ollama-python) library to benchmark tokens per second for a model. This is a very simple script, only generating details about tokens per second. It is meant for reuse and to serve as a base for extension. 
 
 ## Overview
 
@@ -23,7 +23,7 @@ Run the script using the following command: `python main.py [options]`
 - --help: Display help information.
 
 ### Example Usage
-`python main.py --model-path model.pth --log-file mylog.log --log-response`
+`python main.py llama3:8b-instruct-fp16 --log-file mylog.log --log-response`
 
 ## License
 
