@@ -46,4 +46,4 @@ for prompt in prompts:
 
 # Log time series statistics
 df = pd.DataFrame(time_series, columns=['Tokens per Second'])
-logger.info(f'Time series statistics: {df['Tokens per Second'].describe()}')
+logger.info(f'Time series statistics: {df["Tokens per Second"].describe()}')
